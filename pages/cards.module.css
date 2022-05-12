@@ -1,0 +1,208 @@
+/* .smLink{
+    color:black;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    max-width: 48vw;
+    width: inherit;
+    background-color: #ffe4c4;
+}
+.smLink:hover{
+    color: black;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.div_back{
+    background-color: #ececec;
+} */
+
+.smLink{
+    color: #000;;
+    /* display: inline-block; */
+    margin: 7px 0px 7px 0px;
+    text-align: start;
+    background-color: #ffffff;
+    border: 1px solid rgba(000, 000, 000, 0);
+    /* max-width: 48vw; */
+    /* width: 100%; */
+    /* background-color: #ffe4c4; */
+}
+
+.smLink:hover{
+    color: black;
+    text-decoration: none;
+    /* transform: scale(1.1); */
+    border: 1px solid rgba(000, 000, 000, 0.1);
+    border-radius: 15px;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .smLink:hover > img {
+    transform: scale(1.1);
+} */
+
+.div_back{
+    background-color: inherit;
+}
+
+.Text{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+
+.DiscountIndicator{
+    background-color: #00ff00;
+    color: #ffffff;
+    width: 50px;
+    height: 25px;
+    border-radius: 15%;
+    font-weight: 725;
+}
+
+.Link{
+    color: black;
+}
+.Link:hover{
+    color: black;
+    text-decoration: none;
+    /* text-decoration-color: greenyellow; */
+}
+
+.Link:active {
+    color:gray;
+    text-decoration: none;
+  }
+
+.Link2{
+    color:gray;
+}
+.Link2:hover{
+    text-decoration: none;
+    /* text-decoration-color: greenyellow; */
+}
+
+.Link2:active {
+    color:gray;
+    text-decoration: none;
+  }
+
+/* .smLink:hover:end{
+    color: black;
+    text-decoration: none;
+} */
+
+/* html,body{
+    scroll-behavior: smooth;
+    background-color: #18202b;
+} */
+.Price{
+    color: rgb(190, 50, 50);
+    text-align: start;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.percent_back{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background-color: white;
+	display: block;
+	margin-top: 5px;
+    border: 1px solid #777;
+}
+
+.percent_back > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: #ffd700;
+}
+
+.text_input {
+	outline: none;
+	border: none;
+    background-color: transparent;
+    color:black;
+  	border-bottom: 1px solid #555;
+	width: 100%;
+
+}
+
+.text_input:focus {
+	border: none;
+  	border-bottom: 2px solid #000;
+}
+
+.loginContainer{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+	color: black;
+    border: 1px solid black;
+	padding: 40px;
+	margin-top: 22vh;
+    margin-left: 25px;
+	border-radius: 25px;
+	text-align: center;
+	width: 450px;
+    height:400px
+    /* align-self: center; */
+    /* justify-self: center; */
+}
+
+.login_page{
+
+background-color: #3EECAC;
+background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+min-height: 100vh;
+}
+
+.graph_container{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    padding: 10px;
+}
+
+.div_back2{
+    background-color: #b1faff;
+}
+
+.sidebar1{
+    background-color: rgb(0, 0, 179);
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin: 0px;
+}
+
+.sidebar_option{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.sidebar_option_active{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    color: rgb(0, 0, 179);
+    background-color: whitesmoke;
+}
+
+.sidebar_option:hover{
+    color: rgb(0, 0, 179);
+    background-color: whitesmoke;
+}
